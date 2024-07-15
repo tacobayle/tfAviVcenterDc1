@@ -1,4 +1,4 @@
-directory="tfAviVcenter"
+directory="tfAviVcenterDc1"
 cd ~/${directory}
 $(terraform output -json | jq -r .destroy_avi.value)
 sleep 5
